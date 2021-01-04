@@ -99,9 +99,9 @@ class ConnectionPool(object):
         # print '[+] Create a connection pool success, name: %s.' % self.pool_name
 
     def _check_pid(self):
-        if self.pid != os.getpid() and self.pid != os.getppid():
+        if self.pid != os.getpid():
             self.destroy()
-            self.__init__(self.conn_class, self.max_conn, **self.conn_kwargs)
+            self.__init__(self.pool_name, self.conn_class, self.max_conn, **self.conn_kwargs)
 
     def make_conn(self):
         '''Create a new connection.'''
