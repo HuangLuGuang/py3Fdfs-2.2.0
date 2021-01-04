@@ -4,7 +4,9 @@ The Python interface to the Fastdfs Ver 4.06.
 
 ## Installation
 
-    $ sudo python setup.py install
+    $ python setup.py install 
+    or
+    pip install fastdfs-client-py3
 
 ## Getting Started
 	1. import fdfs_client.client module
@@ -319,18 +321,3 @@ sets of tracker server and storage server.
 
 fdfs_client-py ver 1.2.7b support client protol of Fastdfs ver 4.06.
 Python must be ver 2.6 later.
-
-Author
-------
-
-fdfs_client-py is developed and maintained by scott yuan (scottzer8@gmail.com)
-
-fdfs_client-py is bug fixed and maintained by hay86
-
-It can be found here: http://github.com/hay86/fdfs_client-py
-
-Special thanks to:
-
-* Andy Mccurdy, author of redis-py, referenced his code.
-* g.rodola, author sendfile module for python, g.rodola@gmail.com
-

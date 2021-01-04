@@ -11,13 +11,13 @@ long_description = f.read()
 f.close()
 
 sdict = {
-    'name' : 'py3Fdfs',
+    'name' : 'fastdfs_client_py3',
     'version' : __version__,
     'description' : 'Python3 and Python2 client for Fastdfs',
     'long_description' : long_description,
-    'author' : 'wwb',
-    'author_email' : '416713448@qq.com',
-    'url':'http://www.google.com',
+    'long_description_content_type': 'text/markdown',
+    'author' : 'Huanglg',
+    'author_email' : 'huanglg0425@gmail.com',
     'keywords':['Fastdfs', 'Distribute File System'],
     'license' : 'GPLV3',
     'packages' : ['fdfs_client']

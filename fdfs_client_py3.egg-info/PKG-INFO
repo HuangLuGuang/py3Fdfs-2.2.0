@@ -1,9 +1,10 @@
 Metadata-Version: 1.0
-Name: fastdfs_client_py3
+Name: fdfs-client-py3
 Version: 1.0.0
 Summary: Python3 and Python2 client for Fastdfs
+Home-page: UNKNOWN
 Author: Huanglg
-Author-email: huanglg0425@gmail.com
+Author-email: 835923123@qq.com
 License: GPLV3
 Description: # Fdfs_client py
         
@@ -326,21 +327,6 @@ Description: # Fdfs_client py
         
         fdfs_client-py ver 1.2.7b support client protol of Fastdfs ver 4.06.
         Python must be ver 2.6 later.
-        
-        Author
-        ------
-        
-        fdfs_client-py is developed and maintained by scott yuan (scottzer8@gmail.com)
-        
-        fdfs_client-py is bug fixed and maintained by hay86
-        
-        It can be found here: http://github.com/hay86/fdfs_client-py
-        
-        Special thanks to:
-        
-        * Andy Mccurdy, author of redis-py, referenced his code.
-        * g.rodola, author sendfile module for python, g.rodola@gmail.com
-        
         
 Keywords: Fastdfs,Distribute File System
 Platform: UNKNOWN
